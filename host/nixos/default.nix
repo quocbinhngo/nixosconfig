@@ -155,9 +155,13 @@
     # Dev
     vim
 
+    # Network
+    networkmanager
+    bluez
+    blueman
+
     # Shell
-    #kitty
-    zsh
+    kitty
     fish
     tmux
     tree
@@ -173,6 +177,18 @@
   nix.settings.experimental-features = [
     "nix-command"
     "flakes"
+  ];
+
+  fonts.packages = with pkgs; [
+    noto-fonts
+    noto-fonts-cjk
+    noto-fonts-emoji
+    liberation_ttf
+    fira-code
+    fira-code-symbols
+    mplus-outline-fonts.githubRelease
+    dina-font
+    proggyfonts
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

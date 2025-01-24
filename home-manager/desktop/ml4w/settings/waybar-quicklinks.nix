@@ -2,12 +2,12 @@
 {
 
   home.file.".config/ml4w/settings/waybar-quicklinks.json".text = ''
-      {
-        # "custom/quicklink1": {
-        #     "format": " ",
-        #     "on-click": "~/.config/ml4w/apps/ML4W_Hyprland_Settings-x86_64.AppImage",
-        #     "tooltip-format": "Open Hyprland Settings"
-        # }, 
+        {
+        // "custom/quicklink1": {
+        //     "format": " ",
+        //     "on-click": "~/.config/ml4w/apps/ML4W_Hyprland_Settings-x86_64.AppImage",
+        //     "tooltip-format": "Open Hyprland Settings"
+        // }, 
         "custom/quicklink2": {
             "format": " ",
             "on-click": "~/.config/ml4w/settings/browser.sh",
@@ -30,6 +30,7 @@
             ]
         }
     }
+
 
   '';
 }
