@@ -1,0 +1,19 @@
+{ config, pkgs, ... }:
+{
+
+  home.file.".config/hypr/conf/decoration.conf".text = ''
+    # See https://wiki.hyprland.org/Configuring/Variables/ for more
+    decoration {
+        rounding = 10
+        blur {
+            enabled = true
+            size = 3
+            passes = 1
+        }
+        # drop_shadow = true
+        # shadow_range = 4
+        # shadow_render_power = 3
+        # col.shadow = rgba(1a1a1aee)
+    }
+  '';
+}
