@@ -89,13 +89,13 @@
 
         // CPU
         "cpu": {
-            "format": "/ C {usage}% ",
+            "format": "/ CPU {usage}% ",
             "on-click": "alacritty -e htop"
         },
 
         // Memory
         "memory": {
-            "format": "/ M {}% ",
+            "format": "/ Mem {}% ",
             "on-click": "alacritty -e htop"
         },
 
@@ -139,7 +139,7 @@
             "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
             "tooltip-format-disconnected": "Disconnected",
             "max-length": 50,
-            "on-click": "alacritty -e nmtui"
+            "on-click": "kitty -e nmtui"
         },
 
         // Battery
